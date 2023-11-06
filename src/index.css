@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+html{font-size:10px;}  
+
+
+@media(max-width:1900px){
+
+  .FromTill6{width: 33%}
+  .CompanyName{width: 33%}
+  .JobTitle{width: 33%}
+  .date{width: 40%;}
+}
+
+
+
+
+@media (max-width: 1650px){
+
+.preview{width: 95%;}
+.mainContent{width: 63rem;}
+
+.container{
+  display:grid;
+  grid-template-rows: 110vh;
+  grid-template-columns: 20rem 71.5rem 1fr;}
+
+.y{padding: 1rem; 
+display: flex;
+justify-content: center;
+}
+.preview{padding: 0rem; height: max-content;}
+.University{width: 30rem;}
+
+}
+
+@media (max-width:1500px){
+  /* .heading{background-color: pink;} */
+  .container{
+    display:grid;
+    grid-template-rows: max(975px, 100vh);
+    grid-template-columns: 17rem 67.5rem 1fr;
+    }
+
+    .University{width: 30rem;}
+  
+}
+
+
+
+@media (max-width: 1400px) {
+  html{font-size: 9px;}
+
+  
+  .header{ height:6rem}
+  .logo{height:6rem; width: 40rem;}
+
+
+  .preview{font-size: 12px;  
+    height: max-content;
+    width: 100%; 
+    }
+
+  .container{
+    display:grid;
+    grid-template-rows: max(900px, 100vh);
+    grid-template-columns: 14rem 65rem 1fr;
+    }
+
+  input{font-size: 1.5rem;}
+
+.mainContent{ padding-right:2rem; 
+  padding-left: 2rem;
+
+}
+
+  .JobR,.JobR2,.JobR3{width:90%;}
+  .CompanyName{ width: 20rem;}
+
+
+  .Skills{width: 95%;}
+
+.FBtsContainer {margin-left: 10rem;}
+
+.x{padding-left: 2rem; padding-right: 2rem;}
+.y{ padding-left: 2.5rem;}
+
+
+.gitbutton{
+  /* border: black 1px solid; */
+  width:8rem;
+  height: 7rem;
+}
+
+.heading{font-size: 4rem;}
+button{
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.Reactimg{
+  width: 15rem;
+  height: 13rem;
+  padding-top: 2rem;
+}
+
+.Fbtn {font-size: 1.4rem;}
+
+.nameP{font-size: 2.5rem;}
+
+.University{width: 30rem;}
+
+}
+
+
+
+@media (max-width: 1150px) {
+input{font-size: 1.3rem;}
+
+  .container{
+    display:grid;
+    grid-template-rows: max(900px, 100vh);
+    grid-template-columns: 13rem 52rem 1fr;
+    }
+  .x{padding-right: 2rem ;}
+
+  .CompanyName{ width: 12rem;}
+  .JobTitle{width:14``rem}
+
+
+}
+
+
+
+@media (max-width: 1050px) {
+  html{font-size: 6px;}
+
+
+  .header{ height:7rem}
+  .logo{height:7rem; width: 50rem;}
+
+  .preview{font-size: 9.5px;  
+    height: max-content;
+    max-height: max-content;
+    padding-left: 0rem;
+    width: 98%;
+    font-size: 1.9rem;
+    min-width: 60rem;
+    }
+  
+  .y{padding-left: 1.5rem;}
+
+  .container{
+    display:grid;
+    grid-template-rows: max(750px, 100vh);
+    grid-template-columns: 18rem 75rem 1fr;
+    }
+
+button{
+  width: 100%;
+  font-size: 1.8rem;
+}
+
+.x{padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.subheading{font-size: 2.2rem;}
+
+.gitbutton{
+  /* border: black 1px solid; */
+  width:10rem;
+  height: 8rem;
+}
+
+label{font-size: 2.5rem;}
+
+.mainContent{padding-left: 3rem;
+}
+
+.heading{font-size: 5rem;}
+
+
+
+
+
+  .JobR,.JobR2,.JobR3{width:90%;}
+  .CompanyName{ width: 16rem;
+}
+
+
+  .Fbtn {font-size: 1.8rem;
+  
+  }
+
+
+  .Skills{width: 95%;}
+  .JobTitle{width:18rem}
+
+  input{font-size: 2rem; height:5rem;
+    width: 30rem;
+  }
+
+.Location,
+.Phone,
+.Email,
+.gbInput,
+.University
+{width: 45rem;}
+
+
+.FBtsContainer{margin-left: 15rem;}
+
+.nameP{font-size: 3.5rem;}
+
+.headingPreview{height: 12rem;}
+
+}
+
+
+
+
+
+

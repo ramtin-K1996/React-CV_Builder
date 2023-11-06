@@ -1,0 +1,125 @@
+.name{    
+    display: flex;
+    flex-direction: row;
+    /* gap: 3rem; */
+}
+
+body{font-family: 'Times New Roman', Times, serif; 
+    font-weight: 400;
+    font-size: 1.5rem; letter-spacing: .2rem;
+}
+
+
+.heading{font-size: 3rem; font-weight: 500;  color: rgb(1, 0, 36); letter-spacing: .2rem; border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.surname{margin-left: 2rem; }
+
+input{height:3rem; width:20rem; margin-top: .5rem;
+    border:solid rgb(0, 0, 41) 1px;
+    letter-spacing: .1rem;
+}
+
+
+
+
+label{  color: rgb(157, 152, 177);;}
+
+
+.formPt2{width:30rem; color: rgb(156, 154, 154); }
+.formPt2:focus{color:black;}
+
+input:focus {border: solid rgb(0, 0, 41) 2px; outline:none }
+
+
+
+
+.JobTitle{width:17rem; border-right:none; }
+.fromTill{border-left: none; background-color: aliceblue;}
+
+.CompanyName{border-left: none;
+    text-align: center;
+    border-right: none; width: 27rem;}
+
+
+
+
+
+
+.JobR{width:94%;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.JobR2{
+    width:94%;
+    border-bottom: none;
+    border-top: none;
+    margin-top: 0;
+
+}
+
+
+.JobR3{
+    width:94%;
+    border-top: none;
+    margin-top: 0;
+
+}
+
+
+.form2Label{color: rgb(88, 87, 87);}
+
+
+
+
+
+
+
+.uniDetails{display: flex;}
+
+
+
+.course3{width:30rem;}
+
+.grade3{width:17rem;}
+
+
+
+.Skills{width:100%}
+
+
+.subheading{
+    font-style: italic;
+    color: rgba(128, 128, 128, 0.63);
+    letter-spacing: normal;
+}
+
+
+
+.githubButton{padding-top: 2rem;}
+ 
+.gitbutton:hover{background-color: rgba(255, 166, 0, 0);}
+
+.gitbutton{
+    /* border: black 1px solid; */
+    width: 6rem;
+    height: 5rem;
+    border-radius: 60%;
+}
+
+
+.gitbutton img{
+    height:100%;
+    width:100%
+}
+
+
+.placeholder{height:5rem}
+
+
+
+
+
+
+

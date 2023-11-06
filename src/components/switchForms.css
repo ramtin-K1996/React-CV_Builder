@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+
+.FBtsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 10rem;
+    margin-left:21rem; 
+}
+
+
+
+.Fbtn {background-color: rgb(255, 255, 255); 
+width:15rem;  
+font-family:'Open Sans';
+font-size: 1.4rem;
+letter-spacing: normal;
+position: relative;
+border-radius: 15px;
+color: rgb(0, 0, 207);
+border: solid 2px rgb(41, 41, 151);
+font-weight: 500;
+}
+
+
+.Fbtn:hover{background-color: rgb(89, 93, 199);
+border: none;
+color: white;
+}
